@@ -30,7 +30,7 @@ const authorizedAdmin=(req,res,next)=>{
     if(req.user&&req.user.isAdmin){
         next()
     }else{
-        res.staus(401).send("Not authorized as an Admin")
+        res.status(401).send("Not authorized as an Admin")
     }
 }
 

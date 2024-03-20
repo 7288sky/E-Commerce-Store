@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import Message from "../../components/Message";
 import ProgressSteps from "../../components/ProgressSteps";
 import Loader from "../../components/Loader";
-import { useCreateOrderMutation } from "../../redux/Api/orderApiSlice";
+import {useCreateOrderMutation} from '../../redux/Api/orderApiSlice'
 import { clearCartItems } from "../../redux/featires/cart/cartSlice";
 
 const PlaceOrder = () => {
